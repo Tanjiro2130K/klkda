@@ -1,6 +1,6 @@
 {
     "name": "Koyuki🧣",
-    "description": "Koyuki🧣 bot whatsapp automated program",
+    "description": "Koyuki🧣 whatsapp automated program",
     "logo": "https://te.legra.ph/file/f95eaaacf342dfff25df9.jpg",
     "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device", "whatsapp-web.js"],
     "env": {
@@ -20,7 +20,7 @@
       "required":true
     },
     "BOT_NUMBER":{
-      "description": "bot's phone number example - 917086xxxxxx",
+      "description": "bot's phone number example - 917086xxxxxxaa",
       "value": "",
       "required":true
     },
@@ -39,14 +39,24 @@
       "value": "13e4e196a58f64646251999692b9d006",
       "required":false
     },
-    "CHARAI_TOKEN":{
-      "description": "steps to get https://pycai.gitbook.io/welcome/api/values#key-token",
-      "value": "",
-      "required":false
-    },
     "INSTALLATION_ID":{
       "description": "get by running https://replit.com/@E-Venture/truecaller-installation-id?v=1",
       "value": "",
+      "required":false
+    },
+    "AUTHOR_NAME":{
+      "description": "pack or author name of .sticker command",
+      "value": "",
+      "required":false
+    },
+    "STICKER_NAME":{
+      "description": "sticker name of .sticker command",
+      "value": "",
+      "required":false
+    },
+    "CHATBOT":{
+      "description": "write true if you want chatbot to be turned on as default or false if you want it to be turned off",
+      "value": "false",
       "required":false
     }
      },    
@@ -70,4 +80,4 @@
              "size": "standard-1X"
          }
       }
-  }
+}
